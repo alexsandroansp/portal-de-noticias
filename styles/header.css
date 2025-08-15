@@ -7,7 +7,6 @@
     gap: 8px;
   }
 
-  /* nesting css */
   div:nth-child(2) {
     margin-inline: auto;
   }
@@ -22,4 +21,14 @@
   border: solid 1px var(--stroke-color);
   border-inline: none;
   justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  strong {
+    display: none;
+  }
+
+  .links {
+    display: none;
+  }
 }
